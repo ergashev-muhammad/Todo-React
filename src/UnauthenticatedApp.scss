@@ -1,0 +1,65 @@
+.unauth-box {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.unauth__image {
+    display: block;
+    margin: 0;
+    margin-bottom: 36px;
+    margin-right: auto;
+}
+
+.unauth-heading {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 36px;
+    padding: 0;
+}
+
+.unauth-input {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 21px 10px;
+    color: rgba(0, 0, 0, 0.6);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.unauth-button {
+    width: 100%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    padding: 18px;
+    color: #fff;
+    background-color: #1da1f2;
+    border-radius: 76px;
+    border: none;
+    cursor: pointer;
+}
+
+.unauth-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unauth-link {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1da1f2;
+    text-decoration: none;
+}

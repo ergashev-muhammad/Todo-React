@@ -1,0 +1,225 @@
+// Main-page-center
+
+.profile__main-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    display: block;
+    text-decoration: none;
+    text-align: left;
+    color: #000000;
+}
+
+.profile-tweet {
+    color: #000000;
+    opacity: 60%;
+    text-decoration: none;
+    text-align: left;
+}
+
+.profile-info {
+    max-width: 872px;
+    width: 100%;
+    height: 339px;
+    position: relative;
+}
+
+.profile-info-photo {
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.profile-info__btn {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 670px;
+    margin-top: 20px;
+    padding: 10px 60px;
+    background-color: transparent;
+    border-radius: 40px;
+    border: 1px solid black;
+    border-color: rgb(132, 132, 132);
+}
+
+.profile-info__heading {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.profile-info__link {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom: 15px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.profile-info__paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.profile-info__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.profile-info__item::before {
+    content: url(../../Assets/Images/Framee.png);
+    display: inline-block;
+    transform: translateY(5px);
+    margin-right: 10px;
+}
+
+.profile-info__follow-list {
+    display: flex;
+    column-gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.profile-info__follow-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.profile-info__follow-item__strong {
+    margin-right: 5px;
+}
+
+.profile-info__chat-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.profile-info__chat-item--1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+}
+
+.profile-info__chat-item--1::after {
+    content: url(../../Assets/Images/Rectangle16.png);
+    display: block;
+}
+
+.profile-info__chat-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.design-list__tweet {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    color: #536471;
+    text-align: left;
+}
+
+.design-list__tweet::before {
+    content: url(../../Assets/Images/pin.png);
+    display: inline-block;
+    transform: translateY(25%);
+    margin-right: 10px;
+}
+
+.design-profile__box-paragraph--1 {
+    max-width: 680px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    text-align: left;
+}
+
+.design-profile__box-paragraph--2 {
+    max-width: 720px;
+    width: 100%;
+}
+
+.design-profile__box-image--2 {
+    border-radius: 20px;
+}
+
+.design-profile__box-mini--4 {
+    display: flex;
+}
+
+.design-profile__box-mini--4::after {
+    content: url(../../Assets/Images/line.png);
+    transform: translate(520px);
+}
+
+.design-profile__box-mini--5 {
+    display: flex;
+}
+
+.design-profile__box-mini--5::after {
+    content: url(../../Assets/Images/line.png);
+    transform: translate(520px);
+}
+
+.design-profile__box-mini--6 {
+    display: flex;
+}
+
+.design-profile__box-mini--6::after {
+    content: url(../../Assets/Images/line.png);
+    transform: translate(520px);
+}
+
+.search-twitter-input--2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 15px 100px;
+    padding-left: 40px;
+    color: #5c6c79;
+    background-color: #eff3f4;
+    border: none;
+    border-radius: 30px;
+}
+
+.main-page__photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style-type: none;
+}

@@ -1,0 +1,22 @@
+.lists__heading {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.lists-list {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.lists-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lists-image {
+    margin-left: 20px;
+}
